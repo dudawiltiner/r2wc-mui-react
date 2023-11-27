@@ -33,3 +33,8 @@ window.addEventListener("userLoggedIn", (event) => {
     console.log("O usuário não está autenticado.");
   }
 });
+
+// [PARTE 4 - OPCIONAL] Verifica se o usuário está autenticado
+const storageUsername = localStorage.getItem("name");
+
+console.log(storageUsername);

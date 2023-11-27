@@ -44,7 +44,7 @@ export default function Login() {
       });
       dispatchEvent(event);
 
-      localStorage.setItem("name", "usuario");
+      localStorage.setItem("name", "Fulano");
     } catch (error) {
       console.log("Erro ao se autenticar");
     }

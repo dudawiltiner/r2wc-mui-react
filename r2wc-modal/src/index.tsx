@@ -9,7 +9,7 @@ const R2WCModal1 = r2wc(() => (
   </CustomModalWrapper>
 ));
 
-const R2WCModal2 = r2wc(
+const R2WCLogin = r2wc(
   () => (
     <CustomModalWrapper>
       <Login />
@@ -23,4 +23,4 @@ const R2WCModal2 = r2wc(
 );
 
 customElements.define("r2wc-modal1", R2WCModal1);
-customElements.define("r2wc-modal2", R2WCModal2);
+customElements.define("r2wc-login", R2WCLogin);
